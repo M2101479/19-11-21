@@ -20,7 +20,7 @@ def random_string(length):
   result = ''.join((random.choice(string.ascii_lowercase)for x in range (length)))
   return result
 
-
+print(random_string(29))
 
 def generate_dict():
   for i in range (10):
@@ -28,7 +28,7 @@ def generate_dict():
 
 generate_dict()
 
-random_string(generate_dict)
+
 
 
  
